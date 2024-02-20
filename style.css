@@ -1,0 +1,86 @@
+h2,p {
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    align-content: center;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+/* logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: cursive;
+    display: inline-block;  
+}
+
+.logo img {
+    width: 75px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+/* navigation */
+.nav-links {
+    position: absolute;
+    margin-left: 150px;
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-links li{
+    margin: 15px 20px 15px 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+}
+
+#hero {
+    background-image: url("/img/coffee_ui.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 847px;
+    display: flex;
+    
+}
+
+.hero-text{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-right: 50%;
+    margin-top: 10%;
+}
+
+.hero-text h1 {
+    text-align: center;
+    font-family:cursive;
+}
