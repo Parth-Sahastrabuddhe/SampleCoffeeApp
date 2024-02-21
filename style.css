@@ -9,10 +9,10 @@ header {
     align-content: center;
 }
 
-.header img {
+/* .header img {
     width: 100px;
     height: 100px;
-}
+} */
 
 * {
     margin: 0;
@@ -24,17 +24,28 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
 }
-
 /* logo */
-.logo {
+/* .logo, span.logoimg {
     font-size: 24px;
     font-weight: bold;
     font-family: cursive;
     display: inline-block;  
-}
+    padding: 0px;
+    border: none;
+} */
 
-.logo img {
+/* span.logoimg img{
     width: 75px;
+    padding: 0px;
+} */
+
+/* span.logoimg{
+    height: 0px;
+} */
+
+.logoimg img{
+    max-width: 10%;
+    min-width: 10%;
 }
 
 nav{
