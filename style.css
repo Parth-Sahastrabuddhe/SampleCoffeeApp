@@ -2,17 +2,71 @@ h2,p {
     text-align: center;
 }
 
-header {
+/* header {
     background-color: black;
     color: #fff;
     padding: 20px;
     align-content: center;
 }
 
-/* .header img {
-    width: 100px;
-    height: 100px;
+.header-container ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-container li{
+    margin: 15px 20px 15px 20px;
+}
+
+.header-container a {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    font-family: cursive;
 } */
+
+header {
+    background-color: black;
+    color: #fff;
+    display: flex; /* Use flexbox for header layout */
+    justify-content: space-between; /* Distribute logo and navigation */
+    align-items: center;
+  }
+  
+  .header-container {
+    display: flex; /* Make container flexible */
+  }
+  
+  .logoimg {
+    /* Styles for logo image (optional) */
+  }
+  
+  nav {
+    display: flex; /* Navigation list as flexbox */
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0; /* Remove default padding */
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0; /* Remove margins between list items */
+    padding: 10px 20px; /* Add padding for spacing */
+    
+  }
+  .nav-links li:hover{
+    background-color: grey;
+    opacity: 50%;
+  }
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    font-family: cursive;
+  }
 
 * {
     margin: 0;
@@ -23,55 +77,6 @@ header {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
-}
-/* logo */
-/* .logo, span.logoimg {
-    font-size: 24px;
-    font-weight: bold;
-    font-family: cursive;
-    display: inline-block;  
-    padding: 0px;
-    border: none;
-} */
-
-/* span.logoimg img{
-    width: 75px;
-    padding: 0px;
-} */
-
-/* span.logoimg{
-    height: 0px;
-} */
-
-.logoimg img{
-    max-width: 10%;
-    min-width: 10%;
-}
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-
-}
-
-/* navigation */
-.nav-links {
-    position: absolute;
-    margin-left: 150px;
-    display: flex;
-    list-style: none;
-    
-}
-
-.nav-links li{
-    margin: 15px 20px 15px 20px;
-}
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-size: large;
 }
 
 #hero {
